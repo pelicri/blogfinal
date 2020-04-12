@@ -56,7 +56,7 @@ class CreatePost extends Component {
             onSubmit={this.handleAddPOst}>
                 <input style={{ font: '19px'}} 
                 type="text"
-                placeholder="Title" 
+                placeholder="Título" 
                 name="postTitle" 
                 required
                 value = {this.state.postTitle}
@@ -68,7 +68,7 @@ class CreatePost extends Component {
                    rows="3"
                    cols="40"
                    required
-                   placeholder="New Blog Post"
+                   placeholder="Digite Sua mensagem"
                    value = {this.state.postBody}
                   onChange={this.handleChangePost}    />
                 
